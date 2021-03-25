@@ -179,6 +179,8 @@ div.upperNavbarReta div a{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+#RetaSobre div {
+border: none;}
 #RetaSobre div div article small {
     font-family: 'Montserrat';
     text-transform: uppercase;
@@ -229,7 +231,9 @@ div.upperNavbarReta div a{
 }
 .RetaSobreAccordion div h2 {
     font-family: 'Titillium Web';
-    color: #000066;
+    color: #fff;
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
 }
 .RetaSobreAccordion div div div {
     font-family: 'Roboto';
@@ -254,7 +258,7 @@ div.upperNavbarReta div a{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 .RetaSobreAccordion div h2 button.accordion-button::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 .Retal='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 #RetaSolucoes {
     position: relative;
@@ -872,7 +876,7 @@ footer#RetaFooter{
     padding-bottom: 40px;
 }
 footer#RetaFooter div div div div img {
-    width: 100px;
+    width: 00px;
 }
 footer#RetaFooter div div div div:nth-child(2){
     padding-top: 30px;
