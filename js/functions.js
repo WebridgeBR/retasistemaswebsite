@@ -25,44 +25,44 @@ const applyScrollEffectOnPageElements = () => {
         $('#aboutCompanyTransition div:nth-child(1)').addClass('animate__animated animate__fadeInLeft');
         $('#aboutCompanyTransition div:nth-child(2)').addClass('animate__animated animate__fadeInRight');
     }
-    if($(document).scrollTop() > 950) {
+    if($(document).scrollTop() > 1000) {
         $('#solutionsTransition > div:nth-child(2)').removeClass('opacity-0');
         $('#solutionsTransition > div:nth-child(2)').addClass('animate__animated animate__slideInUp');
     }
-    if($(document).scrollTop() > 1450) {
-        $('#solutionsTransition > div:nth-child(3)').removeClass('opacity-0');
-        $('#solutionsTransition > div:nth-child(3)').addClass('animate__animated animate__slideInUp');
-    }
-    if($(document).scrollTop() > 1850) {
-        $('#solutionsTransition > div:nth-child(4)').removeClass('opacity-0');
-        $('#solutionsTransition > div:nth-child(4)').addClass('animate__animated animate__slideInUp');
-    }
-    if($(document).scrollTop() > 2150) {
-        $('#solutionsTransition > div:nth-child(5)').removeClass('opacity-0');
-        $('#solutionsTransition > div:nth-child(5)').addClass('animate__animated animate__slideInUp');
-    }
-    if($(document).scrollTop() > 2700) {
+    // if($(document).scrollTop() > 1450) {
+    //     $('#solutionsTransition > div:nth-child(3)').removeClass('opacity-0');
+    //     $('#solutionsTransition > div:nth-child(3)').addClass('animate__animated animate__slideInUp');
+    // }
+    // if($(document).scrollTop() > 1850) {
+    //     $('#solutionsTransition > div:nth-child(4)').removeClass('opacity-0');
+    //     $('#solutionsTransition > div:nth-child(4)').addClass('animate__animated animate__slideInUp');
+    // }
+    // if($(document).scrollTop() > 2150) {
+    //     $('#solutionsTransition > div:nth-child(5)').removeClass('opacity-0');
+    //     $('#solutionsTransition > div:nth-child(5)').addClass('animate__animated animate__slideInUp');
+    // }
+    if($(document).scrollTop() > 1870) {
         $('#RetaTecnologia > div:nth-child(1)').removeClass('opacity-0');
         $('#RetaTecnologia > div:nth-child(1) > div:nth-child(1)').addClass('animate__animated animate__slideInUp');
         $('#RetaTecnologia > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)').addClass('animate__animated animate__slideInLeft');
         $('#RetaTecnologia > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)').addClass('animate__animated animate__slideInRight');
     }
-    if($(document).scrollTop() > 3500) {
+    if($(document).scrollTop() > 2590) {
         $('#RetaPublico > div:nth-child(1) > div').removeClass('opacity-0');
         $('#RetaPublico > div:nth-child(1) > div').addClass('animate__animated animate__slideInUp');
     }
-    if($(document).scrollTop() > 4000) {
+    if($(document).scrollTop() > 2800) {
         $('#RetaClientes > div').removeClass('opacity-0');
         $('#RetaClientes > div > div:nth-child(1) > div:nth-child(1)').addClass('animate__animated animate__slideInLeft');
         $('#RetaClientes > div > div:nth-child(2) > div:nth-child(1)').addClass('animate__animated animate__slideInLeft');
         $('#RetaClientes > div > div:nth-child(1) > div:nth-child(2)').addClass('animate__animated animate__lightSpeedInRight');
         $('#RetaClientes > div > div:nth-child(2) > div:nth-child(2)').addClass('animate__animated animate__lightSpeedInRight');
     }
-    if($(document).scrollTop() > 4600) {
+    if($(document).scrollTop() > 3300) {
         $('#RetaReportagens > div:nth-child(2)').removeClass('opacity-0');
         $('#RetaReportagens > div:nth-child(2)').addClass('animate__animated animate__flipInY');
     }
-    if($(document).scrollTop() > 5200) {
+    if($(document).scrollTop() > 3600) {
         $('#RetaContato > div:nth-child(1)').removeClass('opacity-0');
         $('#RetaContato > div:nth-child(1)').addClass('animate__animated animate__slideInUp');
     }
@@ -109,6 +109,22 @@ const hideScrollToTopBtn = () => {
 }
 /* Função que adiciona espaçamento entre a navbar e o conteudo */
 $('#navbarSupportedContent ul li a').on('click', (e) => {
+    e.preventDefault();
+    let getSession = e.currentTarget.hash;
+    if(getSession == '#RetaPublico')
+    {
+        let sessionOffset = $(`${getSession}`).offset().top;
+        console.log(sessionOffset);
+        document.body.scrollTop = sessionOffset - 150;
+        document.documentElement.scrollTop = sessionOffset - 150;
+    } else {
+        let sessionOffset = $(`${getSession}`).offset().top;
+        console.log(sessionOffset);
+        document.body.scrollTop = sessionOffset - 50;
+        document.documentElement.scrollTop = sessionOffset - 50;
+    }
+})
+$('#RetaFooter div div div div:nth-child(2) a').on('click', (e) => {
     e.preventDefault();
     let getSession = e.currentTarget.hash;
     if(getSession == '#RetaPublico')
