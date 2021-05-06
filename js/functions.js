@@ -127,16 +127,7 @@ $('#navbarSupportedContent ul li a').on('click', (e) => {
 $('#RetaFooter div div div div:nth-child(2) a').on('click', (e) => {
     e.preventDefault();
     let getSession = e.currentTarget.hash;
-<<<<<<< HEAD
-    if(getSession == '#' || getSession == '')
-    {
-       document.body.scrollTop = 0;
-       document.documentElement.scrollTop = 0;
-    }
-    else if(getSession == '#RetaPublico')
-=======
     if(getSession == '#RetaPublico')
->>>>>>> f5e8c6d895493ae9c5a05afa5cf5230385286c8b
     {
         let sessionOffset = $(`${getSession}`).offset().top;
         console.log(sessionOffset);
