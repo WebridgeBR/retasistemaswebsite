@@ -179,11 +179,8 @@ div.upperNavbarReta div a{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-<<<<<<< HEAD
-=======
 #RetaSobre div {
 border: none;}
->>>>>>> f5e8c6d895493ae9c5a05afa5cf5230385286c8b
 #RetaSobre div div article small {
     font-family: 'Montserrat';
     text-transform: uppercase;
@@ -218,15 +215,9 @@ border: none;}
 }
 #RetaSobre div div article p {
     font-family: 'Roboto';
-<<<<<<< HEAD
-    font-weight: 300;
-    font-size: 14px;
-    color: grey;
-=======
     font-weight: 500;
     font-size: 14px;
     color: rgba(0, 0, 102,0.8);
->>>>>>> f5e8c6d895493ae9c5a05afa5cf5230385286c8b
 }
 .RetaSobreAccordion div:first-child h2 button.accordion-button{
     border-radius: 0px!important;
@@ -238,17 +229,13 @@ border: none;}
     border-bottom-left-radius: 30px!important;
     border-bottom-right-radius: 30px!important;
 }
+.RetaSobreAccordion div:last-child h2 button.accordion-button:focus{
+    border-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+}
 .RetaSobreAccordion div h2 {
     font-family: 'Titillium Web';
-<<<<<<< HEAD
-    color: #000066;
-}
-.RetaSobreAccordion div div div {
-    font-family: 'Roboto';
-    color: grey;
-    font-size: 14px;
-    font-weight: 300;
-=======
     color: #fff;
     background-color: #f7f7f7;
     border: 1px solid #f7f7f7;
@@ -258,7 +245,6 @@ border: none;}
     color: rgba(0, 0, 102,0.8);
     font-size: 14px;
     font-weight: 500;
->>>>>>> f5e8c6d895493ae9c5a05afa5cf5230385286c8b
 }
 .RetaSobreAccordion div h2 button{
     background: radial-gradient(circle at right,#004990, #000066);
@@ -277,11 +263,7 @@ border: none;}
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 .RetaSobreAccordion div h2 button.accordion-button::after {
-<<<<<<< HEAD
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-=======
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 .Retal='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
->>>>>>> f5e8c6d895493ae9c5a05afa5cf5230385286c8b
 }
 #RetaSolucoes {
     position: relative;
@@ -483,6 +465,8 @@ border: none;}
     font-family: 'Montserrat';
     color: #fff;
     font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
 }
 #RetaPublico div div button:hover{
     background-color: #fff;
@@ -527,7 +511,7 @@ border: none;}
 }
 #RetaClientes {
     position: relative;
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -575,29 +559,29 @@ border: none;}
     font-size: 14px;
     color: grey;
 }
-.custom-shape-divider-top-1616499011 {
+.custom-shape-divider-top-1620388771 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
-.custom-shape-divider-top-1616499011 svg {
+
+.custom-shape-divider-top-1620388771 svg {
     position: relative;
     display: block;
-    width: 100%;
-    height: 83px;
-    transform: rotateY(180deg);
+    width: calc(168% + 1.3px);
+    height: 137px;
 }
-.custom-shape-divider-top-1616499011 .shape-fill {
-    fill: #F7F7F7;
+
+.custom-shape-divider-top-1620388771 .shape-fill {
+    fill: #FFFFFF;
 }
 #RetaReportagens {
     position: relative;
     background-image: linear-gradient(to right, #000066, #004589);
-    padding-bottom: 80px;
+    padding-bottom: 180px;
     padding-top: 80px;
 }
 #RetaReportagens div div div article h1 {
@@ -746,23 +730,26 @@ div.retaConteudoTabReportagens::-webkit-scrollbar-track {
     margin-top: 130px;
     margin-bottom: 130px;
 }
-#RetaReportagens .custom-shape-divider-bottom-1616507120 {
+.custom-shape-divider-bottom-1620389939 {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    transform: rotate(180deg);
 }
-#RetaReportagens .custom-shape-divider-bottom-1616507120 svg {
+
+.custom-shape-divider-bottom-1620389939 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
-    height: 83px;
+    width: calc(168% + 1.3px);
+    height: 137px;
     transform: rotateY(180deg);
 }
-#RetaReportagens .custom-shape-divider-bottom-1616507120 .shape-fill {
-    fill: #F7F7F7;
+
+.custom-shape-divider-bottom-1620389939 .shape-fill {
+    fill: #f7f7f7;
 }
 #RetaContato{
     position: relative;
@@ -840,14 +827,15 @@ small.getInTouch{
     font-size: 14px;
 }
 .RetaContatoForm {
-    padding-top: 0px;
-    background: linear-gradient(to right, #000066, #004990);
+    /*background: linear-gradient(to right, #000066, #004990);*/
     padding: 10px;
     border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .RetaContatoForm div div label{
     font-family: 'Montserrat';
-    color: #fff;
+    color: #000166;
     font-weight: 500;
     font-size: 14px;
 }
@@ -858,9 +846,9 @@ small.getInTouch{
     border: 1px solid #fff;
     background: #fff;
 }
-.RetaContatoForm div:nth-child(2) div:nth-child(2) label{
+.RetaContatoForm div:nth-child(2) div:nth-child(1) label{
     font-family: 'Montserrat';
-    color: #fff;
+    color: #000166;
     font-weight: 700;
     font-size: 20px;
 }
@@ -874,19 +862,26 @@ small.getInTouch{
     color: #fff;
     font-family: 'Montserrat';
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 15px;
     border: 1px solid #000066;
+    width: 100%;
+    font-weight: 700;
 }
+#clouds{transform: rotate(180deg);}
+#clouds path {
+    fill: #F7F7F7;
+    stroke: #F7F7F7;
+  }
 .RetaContatoForm div div button i {
     color: #fff;
 }
 .RetaContatoForm div div button:hover{
     background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #000066;
+    color: #000066;
 }
 .RetaContatoForm div div button:hover i {
-    color: #fff;
+    color: #000066;
 }
 iframe.responsiveMap{
     min-width: 100%;
@@ -895,27 +890,33 @@ iframe.responsiveMap{
 }
 footer#RetaFooter{
     background: linear-gradient(to right, #000066, #004990);
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 40px;
 }
 footer#RetaFooter div div div div img {
     width: 100px;
 }
 footer#RetaFooter div div div div:nth-child(2){
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 13px;
+    padding-top: 10px;
+}
+footer#RetaFooter div div div div:nth-child(3){
     padding-top: 30px;
     padding-left: 5px;
 }
-footer#RetaFooter div div div div:nth-child(2) a {
+footer#RetaFooter div div div div:nth-child(3) a {
     font-family: 'Roboto';
     color: white;
     font-size: 13px;
     font-weight: 400;
     text-decoration: none;
 }
-footer#RetaFooter div div div div:nth-child(3) {
+footer#RetaFooter div div div div:nth-child(4) {
     padding-top: 20px;
 }
-footer#RetaFooter div div div div:nth-child(3) small{
+footer#RetaFooter div div div div:nth-child(4) small{
     font-family: 'Roboto';
     color: lightgray;
     font-size: 12px;
@@ -957,4 +958,129 @@ footer#RetaFooter div div div:nth-child(2) button {
 }
 #paraOInicioBtn:hover{
     color: #fff; 
+}
+@media only screen and (max-width: 575px) {
+    .RetaContatoForm {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+    .footer-getInTouch{
+        padding-top: 40px;
+    }
+}
+/*SOBRE EDUCANET*/
+#about_educanet{
+    padding-top: 50px;
+}
+#about_educanet div div div h4, #about_educanet div div div h2{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#about_educanet div div div p {
+    padding-top: 10px;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 14px;
+}
+#about_educanet div div div:nth-child(2) div div div{
+    background: radial-gradient(circle at right,#004990, #000066);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    width: auto;
+    height: 160px;
+    font-family: 'Montserrat', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+}
+#about_educanet div div div:nth-child(2) div div div span{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#about_educanet div div div:nth-child(1) div div {
+    padding-top: 20px;
+}
+
+#about_educanet div div div:nth-child(1) div div div{
+    background: radial-gradient(circle at right,#fff, rgb(221, 221, 221));
+    padding: 10px;
+    border-radius: 50px;
+    color: #000066;
+    font-weight: 600;
+    width: auto;
+    height: auto;
+    font-family: 'Montserrat', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: baseline;
+}
+#about_educanet div div div:nth-child(1) div div div span{
+    font-size: 14px;
+    padding-left: 10px;
+}
+#about_educanet div div div:nth-child(1) div:nth-child(5) div{
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 14px;
+} 
+
+/*footer sobre_educanet*/
+footer#RetaFooterEducanet{
+    background: transparent;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+footer#RetaFooterEducanet div div div div img {
+    width: 100px;
+}
+footer#RetaFooterEducanet div div div div:nth-child(2){
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 13px;
+    padding-top: 10px;
+}
+footer#RetaFooterEducanet div div div div:nth-child(3){
+    padding-top: 30px;
+    padding-left: 5px;
+}
+footer#RetaFooterEducanet div div div div:nth-child(3) a {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+footer#RetaFooterEducanet div div div div:nth-child(4) {
+    padding-top: 20px;
+}
+footer#RetaFooterEducanet div div div div:nth-child(4) small{
+    font-family: 'Roboto';
+    color: lightgray;
+    font-size: 12px;
+}
+footer#RetaFooterEducanet div div div:nth-child(2) h4 {
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 300;
+}
+footer#RetaFooterEducanet div div div:nth-child(2) p {
+    font-family: 'Roboto';
+    color: lightgray;
+    font-size: 12px;
+}
+footer#RetaFooterEducanet div div div:nth-child(2) button {
+    background: #0fcfff;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    font-size: 14px;
 }

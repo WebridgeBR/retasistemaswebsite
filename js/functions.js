@@ -5,6 +5,8 @@ $(document).ready(() =>{
     $(document).on('scroll', changeNav);
     $(document).on('scroll', applyScrollEffectOnPageElements);
     $(document).on('scroll', hideScrollToTopBtn);
+
+    
 })   
 const changeNav = () => {
     if($(document).scrollTop() > 100) {
@@ -124,24 +126,44 @@ $('#navbarSupportedContent ul li a').on('click', (e) => {
         document.documentElement.scrollTop = sessionOffset - 50;
     }
 })
-$('#RetaFooter div div div div:nth-child(2) a').on('click', (e) => {
+// $('#RetaFooter div div div div:nth-child(2) a').on('click', (e) => {
+//     e.preventDefault();
+//     let getSession = e.currentTarget.hash;
+//     if(getSession == '#' || getSession == '')
+//     {
+//        document.body.scrollTop = 0;
+//        document.documentElement.scrollTop = 0;
+//     }
+//     else if(getSession == '#RetaPublico')
+//     {
+//         let sessionOffset = $(`${getSession}`).offset().top;
+//         console.log(sessionOffset);
+//         document.body.scrollTop = sessionOffset - 150;
+//         document.documentElement.scrollTop = sessionOffset - 150;
+//     } else {
+//         let sessionOffset = $(`${getSession}`).offset().top;
+//         console.log(sessionOffset);
+//         document.body.scrollTop = sessionOffset - 50;
+//         document.documentElement.scrollTop = sessionOffset - 50;
+//     }
+// })
+$('.go_to_contact').on('click', ()=>{
+    let sessionOffset = $("#RetaContato").offset().top;
+    document.body.scrollTop = sessionOffset - 50;
+    document.documentElement.scrollTop = sessionOffset - 50;
+})
+
+$('#RetaFooter a').on('click', (e) => {
     e.preventDefault();
-    let getSession = e.currentTarget.hash;
-    if(getSession == '#' || getSession == '')
+    if(e.currentTarget.hash == '#RetaPublico')
     {
-       document.body.scrollTop = 0;
-       document.documentElement.scrollTop = 0;
-    }
-    else if(getSession == '#RetaPublico')
-    {
-        let sessionOffset = $(`${getSession}`).offset().top;
-        console.log(sessionOffset);
+        let sessionOffset = $(`${e.currentTarget.hash}`).offset().top;
         document.body.scrollTop = sessionOffset - 150;
         document.documentElement.scrollTop = sessionOffset - 150;
     } else {
-        let sessionOffset = $(`${getSession}`).offset().top;
-        console.log(sessionOffset);
+        let sessionOffset = $(`${e.currentTarget.hash}`).offset().top;
         document.body.scrollTop = sessionOffset - 50;
         document.documentElement.scrollTop = sessionOffset - 50;
     }
+    
 })
