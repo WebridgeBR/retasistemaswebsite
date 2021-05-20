@@ -1,0 +1,66 @@
+[33mcommit eac1f2cbfea296960e18471d2f55e5524c81c88d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Tue May 11 10:06:48 2021 -0300
+
+    Criação do backend para o formulário de envio de emails e criação da página sobre_educanet.html
+
+[33mcommit cf1d95214c271abb0f27be0b40082125cfa252b8[m
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Thu May 6 12:31:21 2021 -0300
+
+    Arquivo functions.js atualizado
+
+[33mcommit 27af7eafeaa8a0eaa20fd329e289532155c07eba[m
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Thu May 6 12:29:57 2021 -0300
+
+    index.html atualizado
+
+[33mcommit bd2d0bfcd5af05f0763653c7ae21d1db5e34d607[m
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Thu May 6 12:27:48 2021 -0300
+
+    Arquivo HTML alterado
+
+[33mcommit b036796e7a1b169c696c806233ac83d24eb2fa72[m
+Merge: 78ec11f f5e8c6d
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Thu May 6 12:19:19 2021 -0300
+
+    Puxando alterações do branch master externo
+
+[33mcommit 78ec11fbe1c60d9be5acf1d47c5c067859c5a62a[m[33m ([m[1;32mbackup[m[33m)[m
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Thu May 6 11:37:06 2021 -0300
+
+    Mudança na estrutura do HTML e alteração em arquivo JS
+
+[33mcommit f5e8c6d895493ae9c5a05afa5cf5230385286c8b[m
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Fri Mar 26 13:45:24 2021 -0300
+
+    Alteração da aba Soluções
+
+[33mcommit 7d9a3117420a41bcf1b8b49b4cc2c0ae1c578936[m
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Thu Mar 25 16:53:42 2021 -0300
+
+    Remoção de borda em accordion na sessão Empresa no arquivo css
+
+[33mcommit 1cb3eefb9d841ce9abf359854919d48025d2c4a1[m[33m ([m[1;31morigin/RT.v1[m[33m)[m
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Thu Mar 25 12:13:49 2021 -0300
+
+    Foram implementadas algumas modificações no arquivo index.html e a adesão do framework bootstrap internamente.
+
+[33mcommit 0ac8f22a74ef50716fbc905383dc82725d3f77d2[m
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Thu Mar 25 12:08:11 2021 -0300
+
+    Foram implementadas algumas modificações no arquivo index.html e a adesão do framework bootstrap internamente.
+
+[33mcommit 2b05961a6fd8396f1b464a58414ed3c0de0aec7e[m
+Author: Webridge <webridge.contato@gmail.com>
+Date:   Thu Mar 25 10:39:33 2021 -0300
+
+    Instanciando arquivos e pastas do projeto
