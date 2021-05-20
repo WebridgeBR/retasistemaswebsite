@@ -109,7 +109,7 @@ div.upperNavbarReta div a{
 }
 #freshStart div div div article p{
     color: #fff;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-weight: 300;
 }
 #freshStart div div div button{
@@ -161,7 +161,7 @@ div.upperNavbarReta div a{
     font-family: 'Titillium Web', sans-serif;
 }
 #RetaDestaques div div div p {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 300;
 }
@@ -214,9 +214,9 @@ border: none;}
     background-color:#000066;
 }
 #RetaSobre div div article p {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(0, 0, 102,0.8);
 }
 .RetaSobreAccordion div:first-child h2 button.accordion-button{
@@ -238,13 +238,15 @@ border: none;}
     font-family: 'Titillium Web';
     color: #fff;
     background-color: #f7f7f7;
-    border: 1px solid #f7f7f7;
+    border: none;
+    /* border: 1px solid #f7f7f7; */
 }
 .RetaSobreAccordion div div div {
-    font-family: 'Roboto';
-    color: rgba(0, 0, 102,0.8);
-    font-size: 14px;
-    font-weight: 500;
+    font-family: 'Montserrat';
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+    background: radial-gradient(circle at right,#004990, #000066);
 }
 .RetaSobreAccordion div h2 button{
     background: radial-gradient(circle at right,#004990, #000066);
@@ -311,7 +313,7 @@ border: none;}
     font-family: 'Titillium Web';
 }
 #RetaSolucoes div div div div:nth-child(2) p {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-weight: 300;
     color: #fff;
     font-size: 14px;
@@ -328,10 +330,13 @@ border: none;}
     font-family: 'Titillium Web';
 }
 #RetaSolucoes div div div div:nth-child(1) p {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-weight: 300;
     color: #fff;
     font-size: 14px;
+}
+#RetaSolucoes div div div div:nth-child(1) p strong{
+    font-weight: 600;
 }
 #RetaSolucoes div div div div:nth-child(1) button{
     background-color: #FFF;
@@ -389,24 +394,24 @@ border: none;}
     color: grey;
 }
 #RetaTecnologia div div:nth-child(2) div p {
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-weight: 300;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 400;
 }
 #RetaTecnologia div div:nth-child(2) div em {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
 }
 #RetaTecnologia div div:nth-child(2) div:nth-child(2) img{
     float: left;
     padding-right: 10px;
 }
 #RetaTecnologia div div:nth-child(2) div a {
-    font-family: 'Roboto';
+    font-family: 'montserrat';
     font-weight: 500;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     color: #000066;
 }
 #RetaPublico {
@@ -549,16 +554,19 @@ border: none;}
     background-color:#000066;
 }
 #RetaClientes div div article p {
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 14px;
-    color: grey;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(0,0,0,0.9);
+}
+#RetaClientes div div article p strong {
+    font-weight: 600;
 }
 #RetaClientes div div:nth-child(2) p{
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 14px;
-    color: grey;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(0,0,0,0.9);
 }
 .custom-shape-divider-top-1620388771 {
     position: absolute;
@@ -664,7 +672,7 @@ border: none;}
 }
 .RetaPosts div ul li div div:nth-child(2) p {
     padding-top: 30px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-size: 13px;
     font-weight: 300;
 }
@@ -706,9 +714,9 @@ div.retaConteudoTabReportagens div span.badge {
 }
 div.retaConteudoTabReportagens div p {
     padding-top: 30px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-weight: 300;
-    font-size: 14px;
+    font-size: 13px;
     color: #fff;
 }
 div.retaConteudoTabReportagens div p a{
@@ -818,7 +826,7 @@ small.getInTouch{
     color: #000066;
 }
 .RetaContatoInfo article span{
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 300;
     color: grey;
@@ -842,7 +850,7 @@ small.getInTouch{
 }
 .RetaContatoForm div div input {
     border-radius: 30px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-size: 13px;
     border: 1px solid #fff;
     background: #fff;
